@@ -16,7 +16,7 @@ public Testbase()
 {
 		try
 		{
-	    	FileInputStream ip=new FileInputStream("F:\\Tests\\OrangeHRM\\src\\main\\java\\Com\\Orange\\Configration\\Config.properties");
+	    	FileInputStream ip=new FileInputStream("F:\\selenium\\OrangeHRM\\src\\main\\java\\Com\\Orange\\Configration\\Config.properties");
 		    prop=new Properties();
 		    prop.load(ip);
 		}
